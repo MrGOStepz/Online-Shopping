@@ -1,0 +1,325 @@
+a {
+    color: #c4c1bd;
+    text-decoration: none;
+}
+
+.product-image{
+    width:100%;
+}
+.price::before{
+    content:"\0024";
+    display:"inline-block";
+    padding-right:5px;
+}
+.number{
+    max-width:80px;
+}
+.product-row{
+    margin-bottom: 10px;
+    background-color:#fcfcfc;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 238px;
+    /* Set the hr color */
+    color: #ebebeb; /* old IE */
+    background-color: #ebebeb; /* Modern Browsers */
+}
+
+.paddingTOP
+{
+  padding-top:150px;
+}
+
+body{
+    padding-top: 100px;
+    padding-bottom: 0px;
+    background: -moz-linear-gradient(271deg, rgba(217,217,217,1) 0%, rgba(237,237,237,1) 13%, rgba(232,232,232,1) 21%, rgba(237,237,237,1) 28%, rgba(240,240,240,1) 38%, rgba(242,242,242,1) 48%, rgba(247,247,247,1) 61%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 88%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(217,217,217,1)), color-stop(13%, rgba(237,237,237,1)), color-stop(21%, rgba(232,232,232,1)), color-stop(28%, rgba(237,237,237,1)), color-stop(38%, rgba(240,240,240,1)), color-stop(48%, rgba(242,242,242,1)), color-stop(61%, rgba(247,247,247,1)), color-stop(68%, rgba(255,255,255,1)), color-stop(88%, rgba(255,255,255,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(271deg, rgba(217,217,217,1) 0%, rgba(237,237,237,1) 13%, rgba(232,232,232,1) 21%, rgba(237,237,237,1) 28%, rgba(240,240,240,1) 38%, rgba(242,242,242,1) 48%, rgba(247,247,247,1) 61%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 88%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(271deg, rgba(217,217,217,1) 0%, rgba(237,237,237,1) 13%, rgba(232,232,232,1) 21%, rgba(237,237,237,1) 28%, rgba(240,240,240,1) 38%, rgba(242,242,242,1) 48%, rgba(247,247,247,1) 61%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 88%); /* opera 11.10+ */
+    background: -ms-linear-gradient(271deg, rgba(217,217,217,1) 0%, rgba(237,237,237,1) 13%, rgba(232,232,232,1) 21%, rgba(237,237,237,1) 28%, rgba(240,240,240,1) 38%, rgba(242,242,242,1) 48%, rgba(247,247,247,1) 61%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 88%); /* ie10+ */
+    background: linear-gradient(179deg, rgba(217,217,217,1) 0%, rgba(237,237,237,1) 13%, rgba(232,232,232,1) 21%, rgba(237,237,237,1) 28%, rgba(240,240,240,1) 38%, rgba(242,242,242,1) 48%, rgba(247,247,247,1) 61%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 88%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D9D9D9', endColorstr='#FFFFFF',GradientType=0 ); /* ie6-9 */
+}
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+.navbar-nav li a{
+    color: black;
+}
+
+.container-fluid.nav1
+{
+background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(10,10,10,1) 43%, rgba(18,18,18,1) 59%, rgba(48,48,48,1) 76%, rgba(64,64,64,1) 84%, rgba(72,72,72,1) 88%, rgba(77,77,77,1) 90%, rgba(89,89,89,1) 95%, rgba(102,102,102,1) 99%, rgba(122,122,122,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(24%, rgba(0,0,0,1)), color-stop(43%, rgba(10,10,10,1)), color-stop(59%, rgba(18,18,18,1)), color-stop(76%, rgba(48,48,48,1)), color-stop(84%, rgba(64,64,64,1)), color-stop(88%, rgba(72,72,72,1)), color-stop(90%, rgba(77,77,77,1)), color-stop(95%, rgba(89,89,89,1)), color-stop(99%, rgba(102,102,102,1)), color-stop(100%, rgba(122,122,122,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(10,10,10,1) 43%, rgba(18,18,18,1) 59%, rgba(48,48,48,1) 76%, rgba(64,64,64,1) 84%, rgba(72,72,72,1) 88%, rgba(77,77,77,1) 90%, rgba(89,89,89,1) 95%, rgba(102,102,102,1) 99%, rgba(122,122,122,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(10,10,10,1) 43%, rgba(18,18,18,1) 59%, rgba(48,48,48,1) 76%, rgba(64,64,64,1) 84%, rgba(72,72,72,1) 88%, rgba(77,77,77,1) 90%, rgba(89,89,89,1) 95%, rgba(102,102,102,1) 99%, rgba(122,122,122,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(10,10,10,1) 43%, rgba(18,18,18,1) 59%, rgba(48,48,48,1) 76%, rgba(64,64,64,1) 84%, rgba(72,72,72,1) 88%, rgba(77,77,77,1) 90%, rgba(89,89,89,1) 95%, rgba(102,102,102,1) 99%, rgba(122,122,122,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(10,10,10,1) 43%, rgba(18,18,18,1) 59%, rgba(48,48,48,1) 76%, rgba(64,64,64,1) 84%, rgba(72,72,72,1) 88%, rgba(77,77,77,1) 90%, rgba(89,89,89,1) 95%, rgba(102,102,102,1) 99%, rgba(122,122,122,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7A7A7A', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+}
+p {
+    margin: 0 0 10px;
+    color: #ffffff;
+}
+.navbar .navbar-nav {
+    padding-left: 60px;
+}
+
+.PWMK
+{
+    background-color: #131313;
+}
+::selection {
+  background-color: #b5e2e7;
+}
+
+::-moz-selection {
+  background-color: #8ac7d8;
+}
+
+body {
+  background: #131313;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+}
+
+.sepalogobx
+{
+    margin-right: 14px;
+    margin-left: -66px;
+    margin-top: 116px;
+}
+
+.sizeLogo
+{
+  width:50%;
+}
+
+.navleft2
+{
+  padding-left:0px;
+}
+
+#logbox {
+  padding: 10px;
+  margin: 50px auto;
+  margin-right: 195px;
+  
+  width: 340px;
+  height: 345px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+  color: #757575;
+  font-weight: 300;
+}
+
+h1, input {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.input {
+  width: 75%;
+  height: 50px;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+}
+.input:focus {
+  outline: none;
+  border-bottom-color: #686865 !important;
+}
+.input:hover {
+  border-bottom-color: #dcdcdc;
+}
+.input:invalid {
+  box-shadow: none;
+}
+
+.pass:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.inputButton {
+  position: relative;
+  width: 85%;
+  height: 50px;
+  display: block;
+  margin: 30px auto 30px;
+  color: white;
+  background-color: #403f3d;
+  border: none;
+  -webkit-box-shadow: 0 5px 0 #2CADAD;
+  -moz-box-shadow: 0 5px 0 #2CADAD;
+  box-shadow: 0 5px 0 #7f7e7a;
+}
+.inputButton:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0 #2CADAD;
+  -moz-box-shadow: 0 3px 0 #2CADAD;
+  box-shadow: 0 3px 0 #7f7e7a;
+}
+.inputButton:active {
+  top: 5px;
+  box-shadow: none;
+}
+.inputButton:focus {
+  outline: none;
+}
+
+
+.checkbox {
+  padding-left: 20px; }
+  .checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+    .checkbox label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+    .checkbox label::after {
+      display: inline-block;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 0;
+      top: 0;
+      margin-left: -20px;
+      padding-left: 3px;
+      padding-top: 1px;
+      font-size: 11px;
+      color: #555555; }
+  .checkbox input[type="checkbox"] {
+    opacity: 0; }
+    .checkbox input[type="checkbox"]:focus + label::before {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+    .checkbox input[type="checkbox"]:checked + label::after {
+      font-family: 'FontAwesome';
+      content: "\f00c"; }
+    .checkbox input[type="checkbox"]:disabled + label {
+      opacity: 0.65; }
+      .checkbox input[type="checkbox"]:disabled + label::before {
+        background-color: #eeeeee;
+        cursor: not-allowed; }
+  .checkbox.checkbox-circle label::before {
+    border-radius: 50%; }
+  .checkbox.checkbox-inline {
+    margin-top: 0; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+  background-color: #428bca;
+  border-color: #428bca; }
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-danger input[type="checkbox"]:checked + label::before {
+  background-color: #d9534f;
+  border-color: #d9534f; }
+.checkbox-danger input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-info input[type="checkbox"]:checked + label::before {
+  background-color: #5bc0de;
+  border-color: #5bc0de; }
+.checkbox-info input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-warning input[type="checkbox"]:checked + label::before {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e; }
+.checkbox-warning input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+.checkbox-success input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+  
+.thumbnail{
+      box-shadow: none;
+      
+}
+
+.footer a
+{
+  color : white;
+}
+
+.footer a:hover
+{
+  color : red;
+  text-decoration: none;
+}
+
+.button{
+    background-color: #808080; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.square {
+    /*width: 120px;*/
+    /*height: 120px;*/
+    background-color: #303030;
+}
+
+.btn-default {
+  background-color: #808080;
+  
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    /* color: gray; */
+    background-color: transparent;
+}
+
+.well{
+  background-color: #808080;
+}
+
+            #slider2 {
+                position:relative;
+                margin-left:20px;
+                width: 550px;
+                height:120px;
+                border-top:1px solid #aaa;
+                border-bottom:1px solid #aaa;
+            }
